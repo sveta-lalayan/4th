@@ -96,3 +96,6 @@ class Vacancy:
         else:
             return f"Название: {self.name}, зарплата не указана :(, " \
                    f"описание: {self.responsibility}\nСсылка: {self.url}"
+
+#vac = Vacancy('123', '123123', {'from':12312, 'to':123122},'123123')
+#print(vac)
